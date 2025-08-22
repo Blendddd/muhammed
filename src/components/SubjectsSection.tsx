@@ -3,17 +3,17 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 const SubjectsSection = () => {
   const subjects = [
     {
-      title: "Advanced Mathematics",
-      description: "Algebra, Calculus, Statistics, and Problem-solving techniques for high school students.",
-      icon: "🔢",
-      topics: ["Algebra", "Calculus", "Statistics", "Geometry"],
+      title: "Art",
+      description: "Creative expression through drawing, painting, sculpture, and digital art with focus on technique and artistic development.",
+      icon: "🎨",
+      topics: ["Drawing", "Painting", "Sculpture", "Digital Art"],
       level: "Grades 9-12"
     },
     {
-      title: "Physical Sciences",
-      description: "Physics and Chemistry with hands-on experiments and real-world applications.",
-      icon: "⚗️",
-      topics: ["Physics", "Chemistry", "Lab Work", "Research"],
+      title: "Sport",
+      description: "Physical education, sports training, fitness development, and teamwork skills for athletic excellence.",
+      icon: "⚽",
+      topics: ["Fitness", "Team Sports", "Individual Training", "Health Education"],
       level: "Grades 10-12"
     },
     {
