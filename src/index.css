@@ -8,41 +8,41 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Dark Portfolio Theme */
-    --background: 240 20% 6%;
+    /* Dark Blue Portfolio Theme */
+    --background: 220 40% 8%;
     --foreground: 0 0% 95%;
 
-    --card: 240 15% 10%;
+    --card: 220 30% 12%;
     --card-foreground: 0 0% 95%;
 
-    --popover: 240 15% 8%;
+    --popover: 220 35% 10%;
     --popover-foreground: 0 0% 95%;
 
-    --primary: 340 100% 56%;
+    --primary: 210 100% 50%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 240 15% 15%;
+    --secondary: 220 25% 18%;
     --secondary-foreground: 0 0% 90%;
 
-    --muted: 240 10% 20%;
-    --muted-foreground: 240 5% 65%;
+    --muted: 220 20% 25%;
+    --muted-foreground: 220 10% 65%;
 
-    --accent: 280 100% 70%;
+    --accent: 200 100% 60%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 240 15% 15%;
-    --input: 240 15% 12%;
-    --ring: 340 100% 56%;
+    --border: 220 25% 20%;
+    --input: 220 30% 15%;
+    --ring: 210 100% 50%;
 
-    /* Custom Design Tokens */
-    --gradient-primary: linear-gradient(135deg, hsl(240 20% 8%), hsl(280 30% 12%), hsl(240 20% 6%));
-    --gradient-card: linear-gradient(135deg, hsl(240 15% 10% / 0.8), hsl(280 20% 15% / 0.6));
-    --gradient-accent: linear-gradient(135deg, hsl(340 100% 56%), hsl(320 100% 60%));
-    --shadow-glow: 0 0 40px hsl(340 100% 56% / 0.3);
-    --shadow-card: 0 20px 40px hsl(240 20% 4% / 0.5);
+    /* Custom Design Tokens - Dark Blue Theme */
+    --gradient-primary: linear-gradient(135deg, hsl(220 40% 8%), hsl(210 50% 15%), hsl(220 40% 6%));
+    --gradient-card: linear-gradient(135deg, hsl(220 30% 12% / 0.8), hsl(210 40% 18% / 0.6));
+    --gradient-accent: linear-gradient(135deg, hsl(210 100% 50%), hsl(200 100% 60%));
+    --shadow-glow: 0 0 40px hsl(210 100% 50% / 0.3);
+    --shadow-card: 0 20px 40px hsl(220 40% 4% / 0.5);
     --blur-glass: blur(20px);
 
     --radius: 1rem;
@@ -65,8 +65,8 @@ All colors MUST be HSL.
   }
 
   .dark {
-    /* Keep same dark theme */
-    --background: 240 20% 6%;
+    /* Keep same dark blue theme */
+    --background: 220 40% 8%;
     --foreground: 0 0% 95%;
   }
 }

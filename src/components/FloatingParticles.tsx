@@ -21,7 +21,7 @@ const FloatingParticles = () => {
           x: Math.random() * 100,
           y: Math.random() * 100,
           size: Math.random() * 4 + 2,
-          color: Math.random() > 0.5 ? "hsl(340 100% 56%)" : "hsl(280 100% 70%)",
+          color: Math.random() > 0.5 ? "hsl(210 100% 50%)" : "hsl(200 100% 60%)",
           delay: Math.random() * 8,
         });
       }
