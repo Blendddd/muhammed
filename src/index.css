@@ -97,22 +97,24 @@ All colors MUST be HSL.
   }
 
   .floating-element {
-    animation: float 6s ease-in-out infinite;
+    /* Removed shaking animation - now just static */
   }
 
   .particle {
     position: absolute;
     border-radius: 50%;
     pointer-events: none;
-    animation: particle-float 8s ease-in-out infinite;
+    /* Removed particle animation - now static */
   }
 
   @keyframes float {
+    /* Keeping keyframes but not using them */
     0%, 100% { transform: translateY(0px) rotate(0deg); }
     50% { transform: translateY(-20px) rotate(5deg); }
   }
 
   @keyframes particle-float {
+    /* Keeping keyframes but not using them */
     0%, 100% { transform: translateY(0px) translateX(0px); opacity: 0.3; }
     25% { transform: translateY(-30px) translateX(10px); opacity: 0.8; }
     75% { transform: translateY(-10px) translateX(-10px); opacity: 0.5; }
