@@ -69,9 +69,6 @@ const SubjectsSection = () => {
               </CardHeader>
               
               <CardContent className="space-y-4">
-                <p className="text-muted-foreground leading-relaxed">
-                  {subject.description}
-                </p>
                 
                 <div>
                   <h4 className="text-sm font-semibold text-foreground mb-2">Key Topics:</h4>
