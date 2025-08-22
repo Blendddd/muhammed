@@ -1,44 +1,34 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-
 const SubjectsSection = () => {
-  const subjects = [
-    {
-      title: "Art",
-      description: "Creative expression through drawing, painting, sculpture, and digital art with focus on technique and artistic development.",
-      icon: "🎨",
-      topics: ["Drawing", "Painting", "Sculpture", "Digital Art"],
-      level: "Grades 9-12"
-    },
-    {
-      title: "Sport",
-      description: "Physical education, sports training, fitness development, and teamwork skills for athletic excellence.",
-      icon: "⚽",
-      topics: ["Fitness", "Team Sports", "Individual Training", "Health Education"],
-      level: "Grades 10-12"
-    },
-    {
-      title: "English Literature",
-      description: "Classic and contemporary literature analysis, creative writing, and communication skills.",
-      icon: "📖",
-      topics: ["Literature", "Writing", "Grammar", "Communication"],
-      level: "Grades 9-11"
-    },
-    {
-      title: "Study Skills & Mentoring",
-      description: "Academic coaching, time management, and personal development for student success.",
-      icon: "🎯",
-      topics: ["Study Methods", "Time Management", "Goal Setting", "Motivation"],
-      level: "All Grades"
-    }
-  ];
-
-  return (
-    <section id="subjects" className="py-20 relative">
+  const subjects = [{
+    title: "Advanced Mathematics",
+    description: "Algebra, Calculus, Statistics, and Problem-solving techniques for high school students.",
+    icon: "🔢",
+    topics: ["Algebra", "Calculus", "Statistics", "Geometry"],
+    level: "Grades 9-12"
+  }, {
+    title: "Physical Sciences",
+    description: "Physics and Chemistry with hands-on experiments and real-world applications.",
+    icon: "⚗️",
+    topics: ["Physics", "Chemistry", "Lab Work", "Research"],
+    level: "Grades 10-12"
+  }, {
+    title: "English Literature",
+    description: "Classic and contemporary literature analysis, creative writing, and communication skills.",
+    icon: "📖",
+    topics: ["Literature", "Writing", "Grammar", "Communication"],
+    level: "Grades 9-11"
+  }, {
+    title: "Study Skills & Mentoring",
+    description: "Academic coaching, time management, and personal development for student success.",
+    icon: "🎯",
+    topics: ["Study Methods", "Time Management", "Goal Setting", "Motivation"],
+    level: "All Grades"
+  }];
+  return <section id="subjects" className="py-20 relative">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16 animate-fade-in">
-          <h2 className="text-4xl lg:text-5xl font-bold text-gradient mb-6">
-            Subjects I Teach
-          </h2>
+          <h2 className="text-4xl lg:text-5xl font-bold text-gradient mb-6">Subjects That I Can Teach</h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
             Comprehensive education across multiple disciplines with personalized learning approaches 
             tailored to each student's unique needs and learning style.
@@ -46,12 +36,9 @@ const SubjectsSection = () => {
         </div>
 
         <div className="grid md:grid-cols-2 gap-8">
-          {subjects.map((subject, index) => (
-            <Card 
-              key={subject.title} 
-              className="glass-card border-primary/20 hover:border-primary/40 transition-all duration-300 group hover:scale-105 floating-element"
-              style={{ animationDelay: `${index * 0.1}s` }}
-            >
+          {subjects.map((subject, index) => <Card key={subject.title} className="glass-card border-primary/20 hover:border-primary/40 transition-all duration-300 group hover:scale-105 floating-element" style={{
+          animationDelay: `${index * 0.1}s`
+        }}>
               <CardHeader className="pb-4">
                 <div className="flex items-center gap-4 mb-4">
                   <div className="text-4xl group-hover:scale-110 transition-transform duration-300">
@@ -76,19 +63,13 @@ const SubjectsSection = () => {
                 <div>
                   <h4 className="text-sm font-semibold text-foreground mb-2">Key Topics:</h4>
                   <div className="flex flex-wrap gap-2">
-                    {subject.topics.map((topic) => (
-                      <span 
-                        key={topic}
-                        className="px-3 py-1 bg-primary/10 text-primary text-sm rounded-full border border-primary/20"
-                      >
+                    {subject.topics.map(topic => <span key={topic} className="px-3 py-1 bg-primary/10 text-primary text-sm rounded-full border border-primary/20">
                         {topic}
-                      </span>
-                    ))}
+                      </span>)}
                   </div>
                 </div>
               </CardContent>
-            </Card>
-          ))}
+            </Card>)}
         </div>
 
         {/* Additional Info */}
@@ -110,8 +91,6 @@ const SubjectsSection = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default SubjectsSection;
