@@ -1,12 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
 
 const AboutSection = () => {
-  const skills = [
-    { name: "Mathematics", level: 95, icon: "📊" },
-    { name: "Science", level: 90, icon: "🔬" },
-    { name: "English Literature", level: 88, icon: "📚" },
-    { name: "Student Mentoring", level: 97, icon: "👥" },
-  ];
 
   const achievements = [
     { title: "Teacher of the Year", year: "2023", icon: "🏆" },
@@ -50,29 +44,6 @@ const AboutSection = () => {
             </div>
           </div>
 
-          {/* Skills */}
-          <div className="space-y-6 animate-slide-up animation-delay-200">
-            <h3 className="text-2xl font-semibold text-foreground">Expertise Areas</h3>
-            <div className="space-y-4">
-              {skills.map((skill, index) => (
-                <div key={skill.name} className="glass-card p-4 rounded-lg">
-                  <div className="flex items-center justify-between mb-2">
-                    <div className="flex items-center gap-3">
-                      <span className="text-2xl">{skill.icon}</span>
-                      <span className="font-medium text-foreground">{skill.name}</span>
-                    </div>
-                    <span className="text-primary font-semibold">{skill.level}%</span>
-                  </div>
-                  <div className="w-full bg-muted rounded-full h-2">
-                    <div 
-                      className="bg-gradient-to-r from-primary to-accent h-2 rounded-full transition-all duration-1000 ease-out"
-                      style={{ width: `${skill.level}%` }}
-                    ></div>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
         </div>
 
         {/* Achievements */}
