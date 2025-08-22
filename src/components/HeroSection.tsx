@@ -65,7 +65,7 @@ const HeroSection = () => {
           <div className="relative z-10 floating-element">
             <div className="glass-card p-8 rounded-2xl">
               <img 
-                src={heroImage} 
+                src="/lovable-uploads/fa6889f7-85f7-4d7e-96e4-c32af9256455.png" 
                 alt="Sarah Johnson - Professional Teacher"
                 className="w-full h-auto rounded-xl object-cover"
               />
