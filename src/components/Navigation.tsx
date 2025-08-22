@@ -25,9 +25,6 @@ const Navigation = () => {
       isScrolled ? "glass-card py-4" : "py-6"
     }`}>
       <div className="container mx-auto px-6 flex items-center justify-between">
-        <div className="text-2xl font-bold text-gradient">
-          EduPortfolio
-        </div>
         
         <div className="hidden md:flex items-center space-x-8">
           {["Home", "About", "Subjects", "Contact"].map((item) => (
@@ -57,9 +54,6 @@ const Navigation = () => {
             </SheetTrigger>
             <SheetContent side="right" className="w-80 animate-slide-in-right">
               <div className="flex flex-col space-y-6 mt-8">
-                <div className="text-2xl font-bold text-gradient mb-4 animate-fade-in">
-                  EduPortfolio
-                </div>
                 {["Home", "About", "Subjects", "Contact"].map((item, index) => (
                   <button
                     key={item}
