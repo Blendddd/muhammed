@@ -71,87 +71,10 @@ const ContactSection = () => {
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-12">
-          {/* Contact Form */}
-          <Card className="glass-card border-primary/20 animate-slide-up">
-            <CardHeader>
-              <CardTitle className="text-2xl text-foreground">Send a Message</CardTitle>
-            </CardHeader>
-            <CardContent>
-              <form onSubmit={handleSubmit} className="space-y-6">
-                <div className="grid md:grid-cols-2 gap-4">
-                  <div>
-                    <label className="text-sm font-medium text-foreground mb-2 block">
-                      Name *
-                    </label>
-                    <Input
-                      name="name"
-                      value={formData.name}
-                      onChange={handleChange}
-                      placeholder="Your full name"
-                      required
-                      className="bg-background/50 border-primary/20 focus:border-primary"
-                    />
-                  </div>
-                  <div>
-                    <label className="text-sm font-medium text-foreground mb-2 block">
-                      Email *
-                    </label>
-                    <Input
-                      type="email"
-                      name="email"
-                      value={formData.email}
-                      onChange={handleChange}
-                      placeholder="your.email@example.com"
-                      required
-                      className="bg-background/50 border-primary/20 focus:border-primary"
-                    />
-                  </div>
-                </div>
-                
-                <div>
-                  <label className="text-sm font-medium text-foreground mb-2 block">
-                    Subject *
-                  </label>
-                  <Input
-                    name="subject"
-                    value={formData.subject}
-                    onChange={handleChange}
-                    placeholder="What can I help you with?"
-                    required
-                    className="bg-background/50 border-primary/20 focus:border-primary"
-                  />
-                </div>
-                
-                <div>
-                  <label className="text-sm font-medium text-foreground mb-2 block">
-                    Message *
-                  </label>
-                  <Textarea
-                    name="message"
-                    value={formData.message}
-                    onChange={handleChange}
-                    placeholder="Tell me about your learning goals, challenges, or questions..."
-                    required
-                    rows={5}
-                    className="bg-background/50 border-primary/20 focus:border-primary resize-none"
-                  />
-                </div>
-                
-                <Button 
-                  type="submit" 
-                  size="lg"
-                  className="w-full bg-primary hover:bg-primary/90 text-primary-foreground glow-effect hover:animate-pulse-glow transition-all duration-300"
-                >
-                  Send Message
-                </Button>
-              </form>
-            </CardContent>
-          </Card>
-
+        <div className="max-w-4xl mx-auto">
           {/* Contact Information */}
-          <div className="space-y-8 animate-slide-up animation-delay-200">
-            <div className="space-y-6">
+          <div className="space-y-8 animate-slide-up">
+            <div className="grid md:grid-cols-2 gap-6">
               {contactInfo.map((info, index) => (
                 <Card 
                   key={info.title} 
@@ -173,12 +96,12 @@ const ContactSection = () => {
             </div>
 
             {/* Call to Action */}
-            <Card className="glass-card border-primary/20 bg-gradient-to-r from-primary/10 to-accent/10">
-              <CardContent className="p-6 text-center">
-                <h3 className="text-xl font-semibold text-foreground mb-4">
+            <Card className="glass-card border-primary/20 bg-gradient-to-r from-primary/10 to-accent/10 mt-12">
+              <CardContent className="p-8 text-center">
+                <h3 className="text-2xl font-semibold text-foreground mb-4">
                   Ready to Start Learning?
                 </h3>
-                <p className="text-muted-foreground mb-6">
+                <p className="text-muted-foreground mb-6 text-lg">
                   Book a free 30-minute consultation to discuss your learning goals and how I can help you succeed.
                 </p>
                 <Button 
