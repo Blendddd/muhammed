@@ -77,13 +77,6 @@ const Navigation = () => {
           </Sheet>
         </div>
 
-        {/* Desktop Get In Touch Button */}
-        <Button 
-          onClick={() => scrollToSection("contact")}
-          className="hidden md:block bg-primary hover:bg-primary/90 text-primary-foreground glow-effect hover:animate-pulse-glow transition-all duration-300"
-        >
-          Get In Touch
-        </Button>
       </div>
     </nav>
   );
