@@ -17,7 +17,7 @@ const AboutSection = () => {
             About Me
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            With over 8 years of teaching experience, I've dedicated my career to creating 
+            With over 2 years of teaching experience, I've dedicated my career to creating 
             engaging learning environments that inspire students to reach their full potential.
           </p>
         </div>
