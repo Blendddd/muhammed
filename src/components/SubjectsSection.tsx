@@ -3,7 +3,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 const SubjectsSection = () => {
   const subjects = [
     {
-      title: "English Literature",
+      title: "English Language",
       description: "Classic and contemporary literature analysis, creative writing, and communication skills.",
       icon: "📖",
       topics: ["Literature", "Writing", "Grammar", "Communication"],
