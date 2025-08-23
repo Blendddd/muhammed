@@ -3,11 +3,11 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 const SubjectsSection = () => {
   const subjects = [
     {
-      title: "Art",
-      description: "Creative expression through drawing, painting, sculpture, and digital art with focus on technique and artistic development.",
-      icon: "🎨",
-      topics: ["Drawing", "Painting", "Sculpture", "Digital Art"],
-      level: "Grades 9-12"
+      title: "English Literature",
+      description: "Classic and contemporary literature analysis, creative writing, and communication skills.",
+      icon: "📖",
+      topics: ["Literature", "Writing", "Grammar", "Communication"],
+      level: "Grades 9-11"
     },
     {
       title: "Sport",
@@ -17,11 +17,11 @@ const SubjectsSection = () => {
       level: "Grades 10-12"
     },
     {
-      title: "English Literature",
-      description: "Classic and contemporary literature analysis, creative writing, and communication skills.",
-      icon: "📖",
-      topics: ["Literature", "Writing", "Grammar", "Communication"],
-      level: "Grades 9-11"
+      title: "Art",
+      description: "Creative expression through drawing, painting, sculpture, and digital art with focus on technique and artistic development.",
+      icon: "🎨",
+      topics: ["Drawing", "Painting", "Sculpture", "Digital Art"],
+      level: "Grades 9-12"
     },
     {
       title: "Study Skills & Mentoring",
