@@ -4,9 +4,9 @@ const AboutSection = () => {
 
   const achievements = [
     { title: "Teacher of the Year", year: "2023", icon: "🏆" },
-    { title: "Excellence in Education Award", year: "2022", icon: "🌟" },
-    { title: "Innovation in Teaching", year: "2021", icon: "💡" },
-    { title: "Student Choice Award", year: "2020", icon: "❤️" },
+    { title: "Excellence in Education Award", year: "2023", icon: "🌟" },
+    { title: "Innovation in Teaching", year: "2023", icon: "💡" },
+    { title: "Student Choice Award", year: "2023", icon: "❤️" },
   ];
 
   return (
