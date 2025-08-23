@@ -37,7 +37,7 @@ const ContactSection = () => {
   const contactInfo = [{
     icon: "📧",
     title: "Email",
-    value: "sarah.johnson@education.com",
+    value: "Muhammedbehnam@gmail.com",
     description: "Send me a message anytime"
   }, {
     icon: "📱",
