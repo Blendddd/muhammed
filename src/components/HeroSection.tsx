@@ -46,7 +46,7 @@ const HeroSection = () => {
 
           <div className="flex items-center gap-8 pt-4">
             <div className="text-center">
-              <div className="text-2xl font-bold text-primary">8+</div>
+              <div className="text-2xl font-bold text-primary">2+</div>
               <div className="text-sm text-muted-foreground">Years Experience</div>
             </div>
             <div className="text-center">
@@ -54,7 +54,7 @@ const HeroSection = () => {
               <div className="text-sm text-muted-foreground">Students Taught</div>
             </div>
             <div className="text-center">
-              <div className="text-2xl font-bold text-primary">95%</div>
+              <div className="text-2xl font-bold text-primary">85%</div>
               <div className="text-sm text-muted-foreground">Success Rate</div>
             </div>
           </div>
