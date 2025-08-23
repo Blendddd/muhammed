@@ -12,9 +12,9 @@ const HeroSection = () => {
         {/* Text Content */}
         <div className="space-y-8 animate-fade-in">
           <div className="space-y-4">
-            <p className="text-primary text-lg font-medium">👋 Hello, I'm</p>
+            <p className="text-primary text-lg font-medium"></p>
             <h1 className="hero-title text-gradient">
-              Sarah Johnson
+              Muhammed B. Sabri
             </h1>
             <h2 className="text-3xl lg:text-4xl font-semibold text-foreground/90">
               Passionate <span className="text-accent">Educator</span> &amp; Mentor
