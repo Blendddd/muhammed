@@ -65,7 +65,13 @@ const Navigation = () => {
                     <div className="absolute inset-0 bg-primary/10 rounded-lg scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></div>
                   </button>
                 ))}
-              
+                <Button 
+                  onClick={() => scrollToSection("contact")}
+                  className="bg-primary hover:bg-primary/90 text-primary-foreground mt-6 hover:scale-105 transition-all duration-300 animate-fade-in glow-effect"
+                  style={{ animationDelay: "0.4s" }}
+                >
+                  Get In Touch
+                </Button>
               </div>
             </SheetContent>
           </Sheet>
