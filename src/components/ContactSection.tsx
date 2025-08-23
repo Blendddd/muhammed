@@ -42,12 +42,12 @@ const ContactSection = () => {
   }, {
     icon: "📱",
     title: "Phone",
-    value: "+1 (555) 123-4567",
-    description: "Available Mon-Fri, 9AM-6PM"
+    value: "+964 (750) 376 43 29",
+    description: "Available Everyday"
   }, {
     icon: "📍",
     title: "Location",
-    value: "San Francisco, CA",
+    value: "Kurdistan, Kurdistan",
     description: "In-person and online sessions"
   }, {
     icon: "⏰",
