@@ -7,21 +7,21 @@ const SubjectsSection = () => {
       description: "Classic and contemporary literature analysis, creative writing, and communication skills.",
       icon: "📖",
       topics: ["Literature", "Writing", "Grammar", "Communication"],
-      level: "Grades 9-11"
+      level: "Grades 1-12"
     },
     {
       title: "Sport",
       description: "Physical education, sports training, fitness development, and teamwork skills for athletic excellence.",
       icon: "⚽",
       topics: ["Fitness", "Team Sports", "Individual Training", "Health Education"],
-      level: "Grades 10-12"
+      level: "Grades 1-12"
     },
     {
       title: "Art",
       description: "Creative expression through drawing, painting, sculpture, and digital art with focus on technique and artistic development.",
       icon: "🎨",
       topics: ["Drawing", "Painting", "Sculpture", "Digital Art"],
-      level: "Grades 9-12"
+      level: "Grades 1-12"
     },
     {
       title: "Study Skills & Mentoring",
