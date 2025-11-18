@@ -50,7 +50,7 @@ const HeroSection = () => {
               <div className="text-sm text-muted-foreground">Years Experience</div>
             </div>
             <div className="text-center">
-              <div className="text-2xl font-bold text-primary">500+</div>
+              <div className="text-2xl font-bold text-primary">300+</div>
               <div className="text-sm text-muted-foreground">Students Taught</div>
             </div>
             <div className="text-center">
